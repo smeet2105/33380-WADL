@@ -1,0 +1,86 @@
+.background-cust{
+    background-image: url('../images/2352.jpg');
+    background-size: cover;
+    z-index: -10;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.navbar{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.cntr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text{
+    text-align: center;
+    color: white;
+}
+
+.tour-anchor{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin: 15px;
+    padding-inline: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.tour-anchor:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 4px;
+    margin: 15px;
+    padding-inline: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    text-align: center;
+    transition: 1500ms;
+    transform:scale(1.1)
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(126, 193, 255); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(60, 138, 255); 
+  }
+
+.card{
+  margin: 20px;
+}
+
+.contact-us{
+margin-top: 80px; 
+}
+
+.anchor-links-projects{
+  text-decoration: none;
+  color: black;
+  
+}

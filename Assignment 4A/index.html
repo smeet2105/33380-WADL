@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment 4A</title>
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css"
+    />
+    <link
+      type="text/css"
+      href="http://dev.jtsage.com/cdn/simpledialog/latest/jquery.mobile.simpledialog.min.css"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      href="http://dev.jtsage.com/jQM-DateBox/css/demos.css"
+      rel="stylesheet"
+    />
+
+    <!-- NOTE: Script load order is significant! -->
+
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.6.4.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://dev.jtsage.com/jquery.mousewheel.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://dev.jtsage.com/cdn/simpledialog/latest/jquery.mobile.simpledialog.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="http://dev.jtsage.com/gpretty/prettify.js"
+    ></script>
+    <link
+      type="text/css"
+      href="http://dev.jtsage.com/gpretty/prettify.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript">
+      $('div').live('pagecreate', function () {
+        prettyPrint();
+      });
+    </script>
+  </head>
+  <body>
+    <div data-role="page" data-theme="c" id="main">
+      <div data-role="header">
+        <h1>Assignment 4A</h1>
+      </div>
+      <div data-role="content" data-theme="c">
+        <div class="content-secondary">
+          <div id="jqm-homeheader">
+            <p>What is Jquery Mobile?</p>
+          </div>
+
+          <p class="intro">
+            jQuery Mobile is a HTML5-based user interface system designed to
+            make responsive web sites and apps that are accessible on all
+            smartphone, tablet and desktop devices.
+          </p>
+
+          <ul
+            data-role="listview"
+            data-inset="true"
+            data-theme="c"
+            data-dividertheme="f"
+          >
+            <li data-role="list-divider">Overview</li>
+            <li data-theme="a">Intro &amp; Features</li>
+            <li><a href="demos/install.html">Download &amp; Use</a></li>
+            <li><a href="demos/event.html">Methods and Events</a></li>
+            <li><a href="demos/config.html">Transitions</a></li>
+          </ul>
+        </div>
+        <!--/content-primary-->
+
+        <div class="content-primary">
+          <ul
+            data-role="listview"
+            data-inset="true"
+            data-theme="c"
+            data-dividertheme="b"
+          >
+            <li data-role="list-divider">Features</li>
+            <li>
+              <h3>Seriously cross-platform with HTML5</h3>
+              <p>
+                jQuery Mobile framework takes the "write less, do more" mantra
+                to the next level: Instead of writing unique applications for
+                each mobile device or OS, the jQuery mobile framework allows you
+                to design a single highly-branded responsive web site or
+                application that will work on all popular smartphone, tablet,
+                and desktop platforms.
+              </p>
+            </li>
+            <li>
+              <h3>Theming: Built to be branded</h3>
+              <p>
+                We believe that your web site or app should feel like your
+                brand, not any particular OS. To make building highly customized
+                themes easy, we've created ThemeRoller for Mobile to make it
+                easy to drag and drop colors and download a custom theme. For
+                polished visuals without the bloat, we leverage CSS3 properties
+                like text-shadow and box-shadow.
+              </p>
+            </li>
+            <li>
+              <h3>Download builder: Customize for speed</h3>
+              <p>
+                We recommend using our tool to build a custom bundle that
+                contains only the components you need. The builder generates a
+                custom JavaScript file, as well as full and structure-only
+                stylesheets for production use.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div data-role="footer">
+        <div data-role="controlgroup" data-type="horizontal">
+          <a
+            data-role="button"
+            href="https://github.com/jtsage/jquery-mobile-simpledialog"
+            >GitHub Source</a
+          ><a data-role="button" href="http://jquerymobile.com/"
+            >jQueryMobile Homepage</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
